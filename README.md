@@ -7,6 +7,14 @@ MCVE for https://github.com/tensorflow/tfjs/issues/5017
 $ git clone https://github.com/aravindvnair99/TFJS-Issue-5017
 $ cd TFJS-Issue-5017/
 $ npm i
+npm WARN deprecated node-pre-gyp@0.14.0: Please upgrade to @mapbox/node-pre-gyp: the non-scoped node-pre-gyp package is deprecated and only the @mapbox scoped package will recieve updates in the future
+
+added 131 packages, and audited 132 packages in 1m
+
+5 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
 $ node index.js
 node-pre-gyp info This Node instance does not support builds for N-API version 8
 node-pre-gyp info This Node instance does not support builds for N-API version 8
