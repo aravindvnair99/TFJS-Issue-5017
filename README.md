@@ -1,7 +1,7 @@
 # TFJS-Issue-5017
 MCVE for https://github.com/tensorflow/tfjs/issues/5017
 
-## Steps to reproduce (Node.js v14.16.0 with npm v7.11.2):
+## Steps to reproduce (Node.js v14.16.0 with npm v7.11.2 on Windows 10 20H2):
 
 ```console
 $ git clone https://github.com/aravindvnair99/TFJS-Issue-5017
@@ -39,7 +39,7 @@ SyntaxError: Unexpected token 'export'
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
 ```
 
-## Steps to reproduce (Node.js v14.16.1 with npm v6.14.12):
+## Steps to reproduce (Node.js v14.16.1 with npm v6.14.12 on Windows 10 20H2):
 
 ```console
 $ git clone https://github.com/aravindvnair99/TFJS-Issue-5017
@@ -189,4 +189,29 @@ SyntaxError: Unexpected token 'export'
     at Object.<anonymous> (D:\TFJS-Issue-5017\index.js:2:11)
     at Module._compile (internal/modules/cjs/loader.js:1063:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+```
+
+## Steps to reproduce (Node.js v12.21.0 with npm v7.6.2 on Ubuntu 20.10):
+
+```console
+$ git clone https://github.com/aravindvnair99/TFJS-Issue-5017
+$ cd TFJS-Issue-5017/
+$ npm i
+npm WARN deprecated node-pre-gyp@0.14.0: Please upgrade to @mapbox/node-pre-gyp: the non-scoped node-pre-gyp package is deprecated and only the @mapbox scoped package will recieve updates in the future
+
+added 131 packages, and audited 132 packages in 50s
+
+5 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+npm notice
+npm notice New minor version of npm available! 7.6.2 -> 7.11.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v7.11.2
+npm notice Run npm install -g npm@7.11.2 to update!
+npm notice
+$ node index.js
+node-pre-gyp info This Node instance does not support builds for N-API version 8
+node-pre-gyp info This Node instance does not support builds for N-API version 8
+Illegal instruction (core dumped)
 ```
