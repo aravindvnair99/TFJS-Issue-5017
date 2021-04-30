@@ -3,8 +3,8 @@ MCVE for https://github.com/tensorflow/tfjs/issues/5017
 
 ## Environment information:
 
-Node.js: v14.16.0
-npm: 7.11.2
+- Node.js: v14.16.0
+- npm: 7.11.2
 
 ## Steps to reproduce:
 
