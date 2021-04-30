@@ -1,20 +1,26 @@
 {
-  "name": "tfjs-issue-5017",
-  "version": "1.0.0",
-  "description": "MCVE for https://github.com/tensorflow/tfjs/issues/5017",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aravindvnair99/TFJS-Issue-5017.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/aravindvnair99/TFJS-Issue-5017/issues"
-  },
-  "homepage": "https://github.com/aravindvnair99/TFJS-Issue-5017#readme"
+	"name": "tfjs-issue-5017",
+	"version": "1.0.0",
+	"description": "MCVE for https://github.com/tensorflow/tfjs/issues/5017",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/aravindvnair99/TFJS-Issue-5017.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/aravindvnair99/TFJS-Issue-5017/issues"
+	},
+	"homepage": "https://github.com/aravindvnair99/TFJS-Issue-5017#readme",
+	"dependencies": {
+		"@tensorflow/tfjs-automl": "^1.1.0",
+		"@tensorflow/tfjs-converter": "^3.3.0",
+		"@tensorflow/tfjs-core": "^3.3.0",
+		"@tensorflow/tfjs-node": "^3.6.1"
+	}
 }
