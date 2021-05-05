@@ -1,7 +1,7 @@
-# TFJS-Issue-5017
+# TFJS Issue #5017
 MCVE for https://github.com/tensorflow/tfjs/issues/5017
 
-Can confirm updating to @tensorflow/tfjs-automl v1.2.0 has resolved the issue. v1.1.0 has the issue.
+Can confirm updating to [@tensorflow/tfjs-automl](https://www.npmjs.com/package/@tensorflow/tfjs-automl) v1.2.0 has resolved the issue. v1.1.0 has the issue.
 
 Fixed in https://github.com/tensorflow/tfjs/pull/5024
 
