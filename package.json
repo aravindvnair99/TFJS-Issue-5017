@@ -18,7 +18,7 @@
 	},
 	"homepage": "https://github.com/aravindvnair99/TFJS-Issue-5017#readme",
 	"dependencies": {
-		"@tensorflow/tfjs-automl": "^1.1.0",
+		"@tensorflow/tfjs-automl": "^1.2.0",
 		"@tensorflow/tfjs-node": "^3.6.1"
 	}
 }
