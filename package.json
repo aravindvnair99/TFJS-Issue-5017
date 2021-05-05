@@ -19,6 +19,9 @@
 	"homepage": "https://github.com/aravindvnair99/TFJS-Issue-5017#readme",
 	"dependencies": {
 		"@tensorflow/tfjs-automl": "^1.2.0",
+		"@tensorflow/tfjs-backend-webgl": "^3.3.0",
+		"@tensorflow/tfjs-converter": "^3.3.0",
+		"@tensorflow/tfjs-core": "^3.3.0",
 		"@tensorflow/tfjs-node": "^3.6.1"
 	}
 }
