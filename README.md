@@ -1,6 +1,10 @@
 # TFJS-Issue-5017
 MCVE for https://github.com/tensorflow/tfjs/issues/5017
 
+Can confirm updating to @tensorflow/tfjs-automl v1.2.0 has resolved the issue. v1.1.0 has the issue.
+
+Fixed in https://github.com/tensorflow/tfjs/pull/5024
+
 ## Steps to reproduce (Node.js v14.16.0 with npm v7.11.2 on Windows 10 20H2):
 
 ```console
