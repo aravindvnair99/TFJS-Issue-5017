@@ -20,7 +20,7 @@
 	"dependencies": {
 		"@tensorflow/tfjs-automl": "^1.2.0",
 		"@tensorflow/tfjs-backend-webgl": "^3.6.0",
-		"@tensorflow/tfjs-converter": "^3.6.0",
+		"@tensorflow/tfjs-converter": "^3.7.0",
 		"@tensorflow/tfjs-core": "^3.6.0",
 		"@tensorflow/tfjs-node": "^3.6.1"
 	}
